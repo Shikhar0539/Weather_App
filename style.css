@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 20px ;
+  }
+
+  header input {
+    width: 100%;
+    max-width: 250px;
+    padding: 8px 15px;
+    border: 3px solid grey;
+    background-color: white;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  header input:focus {
+     border : 3px solid black;
+     color: #333333;
+  }
+
+  header button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-left: -30px; /* Adjust this value to align the search symbol properly */
+    cursor: pointer;
+  }
+  
+  header button i {
+    font-size: 20px;
+    color: grey;
+  }
+
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .location .city {
+    color: #a17f1a;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .location .date {
+    color: #a17f1a;
+    font-size: 35px;
+  }
+
+  .current .temp {
+    color: #a17f1a;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 8px #ffd700 ;
+  }
+
+  .current .temp span {
+    font-weight: 200;
+  }
+
+  .current .weather {
+    color: #a17f1a;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .current .hi-low {
+    color: #a17f1a;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
