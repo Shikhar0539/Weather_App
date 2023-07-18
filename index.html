@@ -12,22 +12,27 @@
 <body>
 
     <header>
+      <h1 class="app-title">Weather App</h1>
+      <div class="search-container">
         <input type="text" class="search-box" placeholder="Search here">
         <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
     </header>
    
     <main>
-        <div class="location">
+          <div class="location">
             <div class="city"></div>
             <div class="date"></div>
-        </div>
-
-        <div class="current">
-            <div class="temp"><span></span></div>
-            <div class="weather"></div>
-            <div class="hi-low"></div>
-        </div>
-    </main>
+          </div>
+      
+          <div class="weather">
+            <div class="temperature"><span></span></div>
+            <div class="atmosphere"></div>
+            <div class="wind"></div>
+            <div class="humidity"></div>
+          </div>
+      </main>
+      
     
     <script src="script.js"></script>
 </body>
